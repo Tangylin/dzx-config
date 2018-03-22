@@ -3,10 +3,6 @@ server:
 spring:
   application:
     name: weixin
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 
 ### 微信相关配置 ###
 weixin:
