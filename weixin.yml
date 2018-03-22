@@ -1,0 +1,25 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: weixin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+### 微信相关配置 ###
+weixin:
+  app-id: wxcc15103f5ec07023                                   # 开发者ID
+  secret: 3f4d9644269f44037bc771f178d96789                     # 开发者密码
+  sub-appId: wxeefeccca9fc3ab6f                                # 开发者ID（小程序）
+  sub-secret: 56f95b9d0cb8ff9a887657cc77dc748e                 # 开发者密码（小程序）
+  dev-id: wxac1489076b710fed                                   # 开发者ID（测试）
+  dev-secret: 98f8860cac29c324f24d573ed1744826                 # 开发者密码（测试）
+  token: conzen                                                # 事件消息通知token
+  mch-id: 1483246462                                           # 服务商ID
+  mch-key: YN5T53QPZBljXcoClQqZVMextOrihOfV                    # 服务商API密钥
+  wxa-app-id: wx71f9c5aa341b77ea                               # 点着先小程序后台开发者ID1
+  wxa-secret: 811c8d014a46c9b15d32db8cf603787f                 # 点着先小程序后台开发者Secret1
+  sns:
+    payFinishTempId: axTxmNxqUr-aIDMtYhrGRxC15fSiaekqXyV4Tt_oOTA # 模板消息：订单支付成功通知
