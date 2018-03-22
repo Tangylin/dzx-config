@@ -6,7 +6,7 @@ spring:
 
 ### 微信相关配置 ###
 weixin:
-  app-id: wxcc15103f5ec07023                                   # 开发者ID
+  app-id: wxcc15103f5ec07023-1                                   # 开发者ID
   secret: 3f4d9644269f44037bc771f178d96789                     # 开发者密码
   sub-appId: wxeefeccca9fc3ab6f                                # 开发者ID（小程序）
   sub-secret: 56f95b9d0cb8ff9a887657cc77dc748e                 # 开发者密码（小程序）
